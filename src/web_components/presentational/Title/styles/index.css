@@ -1,0 +1,79 @@
+.Title {
+	color: #222222;
+	font-size: 1rem;
+	line-height: 1em;
+	opacity: 1;
+	transition: all .3s ease;
+}
+.Title--hidden {
+	display: none;
+}
+.Title--white {
+	color: #fff;
+}
+.Title--uppercase {
+	text-transform: uppercase;
+}
+.Title--normal {
+	font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding: 0.5em 0;
+}
+.Title--second {
+	color: #52b75c;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	max-width: 70%;
+	text-align: center;
+}
+.Title--centered {
+	text-align: center;
+}
+.Title--header {
+	font-size: .8em;
+	padding: 0;
+}
+.Title--headerScrolling {
+	opacity: .2;
+}
+.Title--hero {
+	font-size: 1.8em;
+	padding-bottom: 0.4em;
+}
+.Title--offers {
+	margin-bottom: 1em;
+}
+
+@media (--maxMedium) {
+	.Title--normal {
+		text-align: center;
+	}
+}
+
+@media (--medium) {
+	.Title--normal,
+	.Title--header {
+		font-size: 1.5625em;
+	}
+	.Title--headerScrolling {
+		font-size: 1.2em;
+	}
+	.Title--hero {
+		font-size: 2em;
+		padding-bottom: 0.5em;
+	}
+}
+
+@media (--maxLarge) {
+	.Title--features {
+		font-size: 1.2em;
+	}
+}
+
+@media (--large) {
+	.Title--hero {
+		font-size: 2.75em;
+		padding-bottom: 0.8em;
+	}
+}

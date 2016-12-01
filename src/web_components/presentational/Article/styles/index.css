@@ -1,0 +1,14 @@
+.Article {
+	display: flex;
+	flex-flow: column;
+	font-size: 1rem;
+	/*margin-bottom: 2em;*/
+}
+.Article--offers {
+	flex-flow: column;
+	align-items: center;
+}
+
+	.Article p {
+		margin: 0.5em 0;
+	}

@@ -1,0 +1,22 @@
+.Video {
+	height: 100%;
+	width: 100%;
+}
+.Video--grid {
+	opacity: 0;
+	transition: opacity .8s ease-in .3s;
+}
+.Video--hero {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: opacity .8s ease-in .3s;
+	z-index: 0;
+}
+.Video--gridPlay,
+.Video--heroPlay {
+	background-color: rgba(0,0,0,0.85);
+	opacity: 1;
+	z-index: 2;
+}

@@ -1,0 +1,16 @@
+.Text {
+	justify-content: center;
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+}
+.Text--centered {
+	align-items: center;
+	/*align-self: baseline;*/
+}
+.Text--centered p {
+	text-align: center;
+}
+.Text--baselined {
+	align-self: baseline;
+}

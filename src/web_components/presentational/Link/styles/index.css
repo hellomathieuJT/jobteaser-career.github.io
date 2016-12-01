@@ -1,0 +1,78 @@
+.Link {
+	display: block;
+	font-size: 1rem;
+}
+.Link--button {
+	border: 1px solid #52b75c;
+	border-radius: 20px;
+	color: #52b75c;
+	display: inline-block;
+	font-size: 0.875em;
+	margin-top: 0.5em;
+	padding: 0.8em 2.5em;
+}
+.Link--more {
+	align-self: center;
+	color: #52b75c;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-right: 1.25em;
+	position: relative;
+}
+.Link--more::after {
+	background: url(../common_assets/images/arrow.bg.svg) no-repeat;
+	content: "";
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+.Link--noDecoration,
+.Link--noDecoration:hover {
+	text-decoration: none;
+}
+.Link--logo {
+	width: 120px;
+}
+.Link--play {
+	display: inline-block;
+	width: 40px;
+}
+.Link--playGrid {
+	position: absolute;
+	width: 80px;
+}
+.Link--map {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	width: 100%;
+}
+
+	.Link-label {
+		color: #000;
+		font-size: 1.2em;
+	}
+
+@media (--medium) {
+
+	.Link--logo {
+		width: 200px;
+	}
+	.Link--play,
+	.Link--playGrid {
+		width: 60px;
+	}
+
+}
+
+@media (--large) {
+
+	.Link--play,
+	.Link--playGrid {
+		width: 80px;
+	}
+
+}

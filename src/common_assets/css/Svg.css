@@ -1,0 +1,43 @@
+.Svg {
+	font-size: 1rem;
+}
+	.Svg path {
+		fill: #fff;
+	}
+	.Svg--spotify {
+		bottom: -7em;
+	  display: block;
+	  opacity: .5;
+	  position: absolute;
+	  right: -6em;
+	  width: 30%;
+	  z-index: 0;
+	}
+		.Svg-spotifyCircle {
+			fill: #52B75C !important;
+		}
+	.Svg--rocket {
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 39%;
+		z-index: 0;
+	}
+	.Svg--rocket path {
+		fill: #B6B8BA;
+		opacity: .2;
+	}
+
+		.Svg-jobteaser {
+			transition: fill .4s ease-in;
+		}
+		.Svg--logoScrolling path {
+			opacity: 1;
+			transition: opacity .4s ease-in, fill .4s ease-in;
+		}
+		.Svg--logoScrolling path:not(.Svg-jobteaser) {
+			opacity: 0;
+		}
+		.Svg--logoScrolling .Svg-jobteaser {
+			fill: #a4c639;
+		}

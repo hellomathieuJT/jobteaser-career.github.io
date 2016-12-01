@@ -1,0 +1,46 @@
+{
+  "offers": [
+  	{
+  		"id": 1,
+  		"title": "Fullstack Ruby on Rails Developer",
+  		"location": "Paris, France",
+  		"url": "https://www.jobteaser.com/fr/offres-emploi-stage/1092968-jobteaser-com-developpeur-developpeuse-fullstack-ruby-on-rails-senior"
+  	},
+  	{
+  		"id": 2,
+  		"title": "Frontend ReactJS Developer",
+  		"location": "Paris, France",
+  		"url": "https://www.jobteaser.com/fr/offres-emploi-stage/1882616-jobteaser-com-developpeur-frontend-reactjs"
+  	},
+  	{
+  		"id": 3,
+  		"title": "ReactNative Mobile Developer",
+  		"location": "Paris, France",
+  		"url": "https://www.jobteaser.com/fr/offres-emploi-stage/1882690-jobteaser-com-developpeur-mobile-reactnative"
+  	},
+    {
+      "id": 4,
+      "title": "Experienced / Senior DevOps",
+      "location": "Paris, France",
+      "url": "https://www.jobteaser.com/fr/offres-emploi-stage/1827894-jobteaser-com-devops-experimente-senior"
+    },
+    {
+      "id": 5,
+      "title": "Web Developer Stage",
+      "location": "Paris, France",
+      "url": "https://www.jobteaser.com/fr/offres-emploi-stage/438961-jobteaser-developpeur-developpeuse-web-stagiaire"
+    },
+    {
+      "id": 6,
+      "title": "Product Manager",
+      "location": "Paris, France",
+      "url": "https://www.jobteaser.com/fr/offres-emploi-stage/1773198-jobteaser-com-product-manager-h-f"
+    }
+  ],
+  "values": [
+  	"Be Humble",
+  	"Be Engaged",
+  	"Be Agile",
+  	"Be EnThousiast"
+  ]
+}

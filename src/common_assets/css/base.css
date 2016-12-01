@@ -1,0 +1,45 @@
+html, body {
+	font: 16px/1em "Open Sans";
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 0 auto;
+	max-width: var(--maxWidth);
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	color: #636566;
+	font-size: 0.875em;
+	line-height: 1.4em;
+	text-align: justify;
+}
+
+section:nth-child(odd) {
+	background-color: #f7f9FB;
+}
+
+@media (--medium) {
+	p {
+		text-align: left;
+	}
+}

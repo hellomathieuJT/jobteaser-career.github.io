@@ -1,0 +1,44 @@
+.Wrapper {
+	align-items: center;
+  align-self: center;
+	display: flex;
+	flex-flow: column nowrap;
+	font-size: 1rem;
+	justify-content: center;
+	width: 100%;
+	z-index: 1;
+}
+.Wrapper--columnFlow {
+	padding-top: 3em;
+}
+.Wrapper--itemsTop {
+	align-items: flex-start;
+}
+.Wrapper--wide {
+	justify-content: space-around;
+	width: 80%;
+}
+.Wrapper--offers {
+	align-items: center;
+	justify-content: center;
+	padding: 1em 0 2em 0;
+}
+
+	.Wrapper-column {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		width: 50%;
+	}
+	.Wrapper-column--values {
+		text-align: center;
+	}
+
+@media (--medium) {
+	.Wrapper {
+		flex-flow: row nowrap;
+	}
+	.Wrapper--columnFlow {
+		flex-flow: column nowrap;
+	}
+}

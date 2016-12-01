@@ -1,0 +1,58 @@
+.Section {
+	background-color: #fff;
+	display: flex;
+	font-size: 1rem;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+.Section--noCentered {
+	justify-content: flex-start;
+}
+.Section--hero {
+	background: url(../common_assets/images/banner.png) 50% 50% no-repeat fixed;
+	background-size: cover;
+	flex: 1 0 100%;
+}
+.Section--hero::before {
+	background: rgb(162,196,70);
+	background: linear-gradient(to right, rgba(162,196,70,1) 0%, rgba(98,135,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a2c446", endColorstr="#6287c2",GradientType=1 );
+	content: "";
+	height: 100%;
+	left: 0;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.Section--hero::after {
+	content: "";
+	padding-bottom: 40%;
+}
+.Section--columns {
+	height: 23.125em;
+	padding: 2em 0;
+}
+.Section--text {
+	padding: 3.125em 0;
+}
+.Section--list {
+	padding: 3.125em 0;
+}
+.Section--values {
+	padding: 1em 0;
+}
+
+@media (--large) {
+	.Section {
+		min-height: 15em;
+	}
+	.Section--columns {
+		padding: 0;
+	}
+	.Section--values {
+		min-height: auto;
+		padding: 1em 0;
+	}
+}

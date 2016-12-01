@@ -1,0 +1,20 @@
+/* Common styles */
+@import "normalize.css";
+@import "../common_assets/css/base.css";
+@import "../common_assets/css/Page.css";
+@import "../common_assets/css/Svg.css";
+
+/* Components styles */
+@import "../web_components/presentational/Title/styles/index.css";
+@import "../web_components/presentational/Link/styles/index.css";
+@import "../web_components/presentational/Image/styles/index.css";
+@import "../web_components/presentational/Text/styles/index.css";
+@import "../web_components/presentational/List/styles/index.css";
+@import "../web_components/presentational/Article/styles/index.css";
+@import "../web_components/presentational/Header/styles/index.css";
+@import "../web_components/presentational/Nav/styles/index.css";
+@import "../web_components/presentational/Section/styles/index.css";
+@import "../web_components/presentational/Wrapper/styles/index.css";
+@import "../web_components/presentational/Grid/styles/index.css";
+@import "../web_components/presentational/Video/styles/index.css";
+

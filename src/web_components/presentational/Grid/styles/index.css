@@ -1,0 +1,78 @@
+.Grid {
+	font-size: 1rem;
+	width: 100%;
+}
+
+.Grid,
+.Grid-item {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+	.Grid-item {
+		background-color: #cbccce;
+		background-repeat: no-repeat;
+		background-size: cover;
+		flex: 1 0 100%;
+		order: 0;
+		position: relative;
+	}
+	.Grid-item:first-child {
+		order: 3;
+	}
+	.Grid-item--cursor {
+		cursor: pointer;
+	}
+
+		.Grid-slice {
+			align-items: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			justify-content: center;
+			border: 1px solid #fff;
+			box-sizing: border-box;
+			display: flex;
+			flex: 1 0 100%;
+			position: relative;
+		}
+		.Grid-slice::after {
+			content: "";
+	    padding-bottom: 50%;
+		}
+		.Grid-slice--baby {
+			background-image: url(../../public/images/baby.jpg);
+		}
+		.Grid-slice--group {
+			background-image: url(../../public/images/group.jpg);
+		}
+		.Grid-slice--favid {
+			background-image: url(../../public/images/favid.jpg);
+		}
+		.Grid-slice--map {
+			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=670x336&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
+		}
+
+@media (--medium) {
+	.Grid-item {
+		flex-basis: 16.6666667%;
+	}
+	.Grid-item:first-child {
+		order: 0;
+	}
+	.Grid-item--double {
+		flex-basis: 33.3333334%;
+	}
+	.Grid-item--triple {
+		flex-basis: 50.0000001%;
+	}
+	.Grid-item--video {
+		background-image: url(../../public/images/video.jpg);
+	}
+
+		.Grid-slice--map {
+			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=400x400&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
+		}
+		.Grid-slice--baby {
+			background-image: url(../../public/images/baby_square.jpg);
+		}
+}

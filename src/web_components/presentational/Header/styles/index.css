@@ -1,0 +1,35 @@
+.Header {
+	font-size: 1rem;
+	left: 50%;
+	max-width: var(--maxWidth);
+	position: fixed;
+	top: 0;
+	transform: translate(-50%);
+	width: 100%;
+	z-index: 10;
+}
+
+	.Header-baseline {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 1em;
+		position: relative;
+		top: 0;
+		transition: top .3s ease 0s, padding .3s ease;
+	}
+	.Header-baseline--scrolling {
+		padding: 1em 2em;
+	}
+	.Header-baseline--scrollingDown {
+		top: -1.6em;
+		transition-delay: .3s;
+	}
+
+@media (--wide) {
+
+	.Header-baseline {
+		padding: 2em;
+	}
+
+}

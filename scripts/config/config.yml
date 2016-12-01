@@ -1,0 +1,10 @@
+path:
+  root: "./src/"
+  src: "./src/"
+  export: "./public"
+  directory: "webpack-static"
+# TODO : Make this configurable in the .env file
+server:
+  host: "localhost"
+  port: 8080
+  secure: false
