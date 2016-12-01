@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 import SVGInline from "react-svg-inline"
-import Title from "../Title"
-import Text from "../Text"
 import Link from "../Link"
 import cx from "classnames"
 import iconPlay from "../../../common_assets/images/play.raw.svg"

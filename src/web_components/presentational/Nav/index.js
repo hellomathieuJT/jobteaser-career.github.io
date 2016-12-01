@@ -13,7 +13,7 @@ const Nav = ({ className }) => {
     <nav className={ classNames }>
       <ul className="Nav-list">
         <li className="Nav-item">
-          <Link className="Nav-link"> Contact </Link>
+          <Link className="Nav-link" href="mailto:paul-armand.assus@jobteaser.com?subject=Application Jobteaser via Career website"> Contact </Link>
         </li>
       </ul>
     </nav>

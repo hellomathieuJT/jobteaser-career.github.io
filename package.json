@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "#start": "webpack-dev-server --hot --inline",
     "start": "npm run build",
     "export": "npm run build -- --export",
     "build": "babel-node scripts/build"
