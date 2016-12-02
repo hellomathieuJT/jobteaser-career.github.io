@@ -1,7 +1,7 @@
 path:
   root: "./src/"
   src: "./src/"
-  export: "./public"
+  export: "./"
   directory: "webpack-static"
 # TODO : Make this configurable in the .env file
 server:

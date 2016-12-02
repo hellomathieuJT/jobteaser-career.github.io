@@ -23,7 +23,7 @@ function build() {
     new webpackDevServer( webpack(webpackConfig), {
 
       https: configServer.secure,
-      contentBase: "./public",
+      contentBase: "./",
       publicPath: webpackConfig.output.publicPath,
       hot: true,
       inline: true,

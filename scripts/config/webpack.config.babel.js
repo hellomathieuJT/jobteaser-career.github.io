@@ -47,7 +47,7 @@ const mainConfig = {
   output: {
     path: path.resolve(rootPath, configPath.export),
     filename: production ? "javascripts/[name].js" : "[name].js",
-    publicPath: "/",
+    publicPath: "./",
   },
 
   resolve: {

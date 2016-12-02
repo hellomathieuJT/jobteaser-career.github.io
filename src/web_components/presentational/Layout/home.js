@@ -59,11 +59,11 @@ export default class HomeLayout extends Component {
 						</Link>
 					</Wrapper>
 					<video width="100%" ref={ (r) => this._heroVideo = r }
-  className="Video Video--hero" preload="auto" loop
+  className="Video Video--hero" preload="auto" loop controls
 					>
-						<source src="./videos/jt.mp4" type="video/mp4" />
-						<source src="./videos/jt.webm" type="video/webm" />
-						<source src="./videos/jt.ogv" type="video/ogg" />
+						<source src="./videos/dev.mp4" type="video/mp4" />
+						<source src="./videos/dev.webm" type="video/webm" />
+						<source src="./videos/dev.ogv" type="video/ogg" />
 					</video>
 				</Section>
 
@@ -72,12 +72,14 @@ export default class HomeLayout extends Component {
 						<Image className="Image--withText" src="./images/our-mission.jpg" />
 						<Text>
 							<Title tag="h1" className="Title--normal"> Our mission </Title>
-							<p> We believe that after a bachelor or a master degree,
-							students are still not able to find the job they truly want,
-							or fit their personality at best. <br/>
-							Here at JobTeaser, we created a platform to help them follow their
-							dream and make the best professionnal decisions they can make.
-							It's called the Career Center by JobTeaser </p>
+							<p>
+								We believe that after a bachelor or a master degree,
+								students are still not able to find the job they truly want,
+								or fit their personality at best. <br/>
+								Here at JobTeaser, we created a platform to help them follow their
+								dream and make the best professionnal decisions they can make.
+								It's called the Career Center by JobTeaser
+							</p>
 						</Text>
 					</Wrapper>
 				</Section>

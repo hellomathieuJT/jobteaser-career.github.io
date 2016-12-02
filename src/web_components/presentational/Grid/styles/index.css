@@ -40,13 +40,13 @@
 	    padding-bottom: 50%;
 		}
 		.Grid-slice--baby {
-			background-image: url(../../public/images/baby.jpg);
+			background-image: url(../../images/baby.jpg);
 		}
 		.Grid-slice--group {
-			background-image: url(../../public/images/group.jpg);
+			background-image: url(../../images/group.jpg);
 		}
 		.Grid-slice--favid {
-			background-image: url(../../public/images/favid.jpg);
+			background-image: url(../../images/favid.jpg);
 		}
 		.Grid-slice--map {
 			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=670x336&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
@@ -66,13 +66,13 @@
 		flex-basis: 50.0000001%;
 	}
 	.Grid-item--video {
-		background-image: url(../../public/images/video.jpg);
+		background-image: url(../../images/video.jpg);
 	}
 
 		.Grid-slice--map {
 			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=400x400&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
 		}
 		.Grid-slice--baby {
-			background-image: url(../../public/images/baby_square.jpg);
+			background-image: url(../../images/baby_square.jpg);
 		}
 }
