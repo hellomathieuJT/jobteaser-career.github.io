@@ -1,43 +1,34 @@
+:root {
+	--gridItemWidth: 16.015625%;
+}
+
 .Grid {
 	font-size: 1rem;
 	width: 100%;
-}
-
-.Grid,
-.Grid-item {
-	display: flex;
-	flex-flow: row wrap;
 }
 
 	.Grid-item {
 		background-color: #cbccce;
 		background-repeat: no-repeat;
 		background-size: cover;
-		flex: 1 0 100%;
-		order: 0;
+		float: left;
+		height: 0;
+		padding-bottom: 100%;
 		position: relative;
+		width: 100%;
 	}
-	.Grid-item:first-child {
-		order: 3;
-	}
-	.Grid-item--cursor {
+	.Grid-item--video {
+		background-image: url(../../images/video.jpg);
 		cursor: pointer;
+		padding-bottom: 50%;
 	}
 
 		.Grid-slice {
-			align-items: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			justify-content: center;
-			border: 1px solid #fff;
-			box-sizing: border-box;
-			display: flex;
-			flex: 1 0 100%;
-			position: relative;
-		}
-		.Grid-slice::after {
-			content: "";
-	    padding-bottom: 50%;
+			height: 0;
+			padding-bottom: 50%;
+			width: 100%;
 		}
 		.Grid-slice--baby {
 			background-image: url(../../images/baby.jpg);
@@ -52,27 +43,30 @@
 			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=670x336&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
 		}
 
-@media (--medium) {
+@media screen and (--medium) {
+
 	.Grid-item {
-		flex-basis: 16.6666667%;
+		padding-bottom: 33.3333334%;
+		width: 16.6666667%;
 	}
-	.Grid-item:first-child {
+/*	.Grid-item:first-child {
 		order: 0;
-	}
+	}*/
 	.Grid-item--double {
-		flex-basis: 33.3333334%;
+		width: 33.3333334%;
 	}
 	.Grid-item--triple {
-		flex-basis: 50.0000001%;
+		width: 50.0000001%;
 	}
 	.Grid-item--video {
 		background-image: url(../../images/video.jpg);
 	}
-
+		.Grid-slice--baby,
+		.Grid-slice--map {
+			padding-bottom: 100%;
+		}
 		.Grid-slice--map {
 			background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=34+rue+Guersant+Paris&zoom=18&size=400x400&scale=2&key=AIzaSyBp-BpudWA67C1pIaEMCnpXfaTiXvKIq4M);
 		}
-		.Grid-slice--baby {
-			background-image: url(../../images/baby_square.jpg);
-		}
+
 }

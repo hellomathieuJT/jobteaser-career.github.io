@@ -35,13 +35,13 @@
 		padding: 0.5em 0;
 	}
 
-@media (--medium) {
+@media screen and (--medium) {
 	.List-item--offers {
 		width: 50%;
 	}
 }
 
-@media (--large) {
+@media screen and (--large) {
 	.List-item--offers {
 		width: 33.33%;
 	}

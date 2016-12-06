@@ -5,11 +5,11 @@
 		fill: #fff;
 	}
 	.Svg--spotify {
-		bottom: -7em;
+		bottom: -4em;
 	  display: block;
 	  opacity: .5;
 	  position: absolute;
-	  right: -6em;
+	  right: -3em;
 	  width: 30%;
 	  z-index: 0;
 	}
@@ -41,3 +41,10 @@
 		.Svg--logoScrolling .Svg-jobteaser {
 			fill: #a4c639;
 		}
+
+@media (--medium) {
+	.Svg--spotify {
+		bottom: -7em;
+	  right: -6em;
+	}
+}

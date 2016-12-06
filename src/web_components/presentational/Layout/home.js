@@ -19,22 +19,12 @@ export default class HomeLayout extends Component {
 
   constructor(props) {
     super(props)
-    // this.onResize = this.onResize.bind(this)
     this.heroPlay = this.heroPlay.bind(this)
   }
 
-  // componentDidMount() {
-  // 	window.addEventListener("resize", this.onResize)
-  //   this.onResize()
-  // }
-
-  // onResize() {
-  // 	this._heroVideo.style.width = window.innerWidth
-  // }
-
   heroPlay(e) {
     e.preventDefault()
-    this._heroVideo.classList.add("Video--heroPlay")
+    this._heroVideo.classList.add("Video--play")
     this._heroVideo.play()
   }
 
@@ -49,7 +39,7 @@ export default class HomeLayout extends Component {
 
 				<Header />
 
-				<Section className="Section Section--noCentered Section--hero">
+				<Section className="Section--noCentered Section--hero">
 					<Wrapper className="Wrapper--centered Wrapper--columnFlow">
 						<Title tag="h1" className="Title--hero Title--white">
 							Join our tribe.
@@ -67,7 +57,7 @@ export default class HomeLayout extends Component {
 					</video>
 				</Section>
 
-				<Section className="Section Section--text">
+				<Section className="Section--text">
 					<Wrapper className="Wrapper--wide">
 						<Image className="Image--withText" src="./images/our-mission.jpg" />
 						<Text>
@@ -84,7 +74,7 @@ export default class HomeLayout extends Component {
 					</Wrapper>
 				</Section>
 
-				<Section className="Section Section--columns">
+				<Section className="Section--columns">
 					<Wrapper className="Wrapper--wide">
 						<Text className="Text--centered Text--baselined">
 							<Title tag="h1" className="Title--normal Title--centered Title--features">
@@ -118,7 +108,7 @@ export default class HomeLayout extends Component {
 
 				<Grid />
 
-				<Section className="Section Section--text">
+				<Section className="Section--text">
 					<Wrapper className="Wrapper--wide">
 						<Text className="Text--centered">
 							<Title tag="h1" className="Title--normal">
@@ -133,7 +123,7 @@ export default class HomeLayout extends Component {
 					<SVGInline className="Svg Svg--spotify" svg={ iconSpotify } />
 				</Section>
 
-				<Section className="Section Section--text">
+				<Section className="Section--text">
 					<Wrapper className="Wrapper--wide">
 						<Image className="Image--withText" src="./images/our-stack.jpg" />
 						<Text>
@@ -145,7 +135,7 @@ export default class HomeLayout extends Component {
 					</Wrapper>
 				</Section>
 
-				<Section className="Section">
+				<Section>
 					<Wrapper className="Wrapper--wide Wrapper--columnFlow Wrapper--offers">
 						<Title tag="h2" className="Title--normal Title--offers">
 							Our current engineer job openings in Paris
@@ -159,7 +149,7 @@ export default class HomeLayout extends Component {
 					</Wrapper>
 				</Section>
 
-				<Section className="Section Section--values">
+				<Section className="Section--values">
 					<Wrapper className="Wrapper--wide">
 						<Title tag="h2" className="Title--normal Title--hidden">
 							Our values

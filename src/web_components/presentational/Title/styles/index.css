@@ -45,13 +45,13 @@
 	margin-bottom: 1em;
 }
 
-@media (--maxMedium) {
+@media screen and (--maxMedium) {
 	.Title--normal {
 		text-align: center;
 	}
 }
 
-@media (--medium) {
+@media screen and (--medium) {
 	.Title--normal,
 	.Title--header {
 		font-size: 1.5625em;
@@ -65,13 +65,13 @@
 	}
 }
 
-@media (--maxLarge) {
+@media screen and (--maxLarge) {
 	.Title--features {
 		font-size: 1.2em;
 	}
 }
 
-@media (--large) {
+@media screen and (--large) {
 	.Title--hero {
 		font-size: 2.75em;
 		padding-bottom: 0.8em;

@@ -13,6 +13,7 @@
 	background: url(../common_assets/images/banner.png) 50% 50% no-repeat fixed;
 	background-size: cover;
 	flex: 1 0 100%;
+	min-height: 25em;
 }
 .Section--hero::before {
 	background: rgb(162,196,70);
@@ -44,9 +45,9 @@
 	padding: 1em 0;
 }
 
-@media (--large) {
+@media screen and (--large) {
 	.Section {
-		min-height: 15em;
+		min-height: 25em;
 	}
 	.Section--columns {
 		padding: 0;
